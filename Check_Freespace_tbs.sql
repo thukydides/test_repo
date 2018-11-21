@@ -1,5 +1,4 @@
--- IJK check free space for tablespace data files
--- 2013-05-28
+
 
  accept tbsname format A50 prompt "Enter tablespace name: ";
 
