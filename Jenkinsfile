@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'python -c "print('This is second test')"'
+                sh 'python -c \"print(\'This is second test\')\"'
             }
         }
     }
